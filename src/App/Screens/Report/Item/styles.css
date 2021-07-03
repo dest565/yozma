@@ -1,0 +1,40 @@
+.reportItemContainer {
+    width: 80%;
+    margin: 13px 10%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e4e4e4;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    transition: all 0.5s;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.reportItemContainer:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.reportItemPart {
+    width: 25%;
+}
+
+.reportItemPart div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.reportItemPartHeader {
+    font-weight: 700;
+}
+
+.reportItemPart div {
+    padding-bottom: 10px;
+}

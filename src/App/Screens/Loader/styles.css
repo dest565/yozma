@@ -1,0 +1,20 @@
+.loaderContainer{
+    border-radius: 4px;
+    margin: 10px;
+    width: 70%;
+    height: 96vh;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #4a4a4a;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .loaderContainer {
+        width: auto;
+    }
+}

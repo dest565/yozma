@@ -1,0 +1,16 @@
+.navigatorContainer {
+    margin-top: 20px;
+}
+
+.navigatorItem {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+    transition: all 0.5s;
+}
+
+.navigatorItem:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
